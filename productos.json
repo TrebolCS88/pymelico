@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zapatillas Deportivas",
+    "descripcion": "Zapatillas cómodas para correr.",
+    "precio": 59.99,
+    "imagen": "imagen1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Camiseta Básica",
+    "descripcion": "Camiseta de algodón suave.",
+    "precio": 19.99,
+    "imagen": "imagen2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Reloj Inteligente",
+    "descripcion": "Reloj con seguimiento de actividad.",
+    "precio": 129.99,
+    "imagen": "imagen3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Mochila Impermeable",
+    "descripcion": "Mochila resistente al agua.",
+    "precio": 39.99,
+    "imagen": "imagen4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Auriculares Inalámbricos",
+    "descripcion": "Auriculares con cancelación de ruido.",
+    "precio": 89.99,
+    "imagen": "imagen5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Gafas de Sol",
+    "descripcion": "Gafas con protección UV.",
+    "precio": 29.99,
+    "imagen": "imagen6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Portátil Ultraligero",
+    "descripcion": "Portátil de 13 pulgadas y 1 kg.",
+    "precio": 899.99,
+    "imagen": "imagen7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Cámara Reflex",
+    "descripcion": "Cámara profesional de 24 MP.",
+    "precio": 499.99,
+    "imagen": "imagen8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Altavoz Bluetooth",
+    "descripcion": "Altavoz portátil con sonido estéreo.",
+    "precio": 49.99,
+    "imagen": "imagen9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Tablet 10 Pulgadas",
+    "descripcion": "Tablet con pantalla Full HD.",
+    "precio": 199.99,
+    "imagen": "imagen10.jpg"
+  }
+]
