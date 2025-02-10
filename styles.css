@@ -46,6 +46,7 @@ h1 {
 .producto p {
   color: #666;
   font-size: 0.9em;
+  margin: 5px 0;
 }
 
 .producto button {
