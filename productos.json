@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "nombre": "Zapatillas Deportivas",
-    "categoria": "Calzado",
-    "precio": 59.99,
-    "vendedor": "Deportes S.A.",
+    "nombre": "Refresco cola",
+    "categoria": "Alimentos",
+    "precio": 50,
+    "vendedor": "TCS",
     "imagen": "imagen1.jpg"
   },
   {
