@@ -2,71 +2,81 @@
   {
     "id": 1,
     "nombre": "Zapatillas Deportivas",
-    "descripcion": "Zapatillas cómodas para correr.",
+    "categoria": "Calzado",
     "precio": 59.99,
+    "vendedor": "Deportes S.A.",
     "imagen": "imagen1.jpg"
   },
   {
     "id": 2,
     "nombre": "Camiseta Básica",
-    "descripcion": "Camiseta de algodón suave.",
+    "categoria": "Ropa",
     "precio": 19.99,
+    "vendedor": "Moda Express",
     "imagen": "imagen2.jpg"
   },
   {
     "id": 3,
     "nombre": "Reloj Inteligente",
-    "descripcion": "Reloj con seguimiento de actividad.",
+    "categoria": "Tecnología",
     "precio": 129.99,
+    "vendedor": "TechWorld",
     "imagen": "imagen3.jpg"
   },
   {
     "id": 4,
     "nombre": "Mochila Impermeable",
-    "descripcion": "Mochila resistente al agua.",
+    "categoria": "Accesorios",
     "precio": 39.99,
+    "vendedor": "Outdoor Gear",
     "imagen": "imagen4.jpg"
   },
   {
     "id": 5,
     "nombre": "Auriculares Inalámbricos",
-    "descripcion": "Auriculares con cancelación de ruido.",
+    "categoria": "Tecnología",
     "precio": 89.99,
+    "vendedor": "SoundMaster",
     "imagen": "imagen5.jpg"
   },
   {
     "id": 6,
     "nombre": "Gafas de Sol",
-    "descripcion": "Gafas con protección UV.",
+    "categoria": "Accesorios",
     "precio": 29.99,
+    "vendedor": "SunStyle",
     "imagen": "imagen6.jpg"
   },
   {
     "id": 7,
     "nombre": "Portátil Ultraligero",
-    "descripcion": "Portátil de 13 pulgadas y 1 kg.",
+    "categoria": "Tecnología",
     "precio": 899.99,
+    "vendedor": "TechWorld",
     "imagen": "imagen7.jpg"
   },
   {
     "id": 8,
     "nombre": "Cámara Reflex",
-    "descripcion": "Cámara profesional de 24 MP.",
+    "categoria": "Fotografía",
     "precio": 499.99,
+    "vendedor": "PhotoPro",
     "imagen": "imagen8.jpg"
   },
   {
     "id": 9,
     "nombre": "Altavoz Bluetooth",
-    "descripcion": "Altavoz portátil con sonido estéreo.",
+    "categoria": "Tecnología",
     "precio": 49.99,
+    "vendedor": "SoundMaster",
     "imagen": "imagen9.jpg"
   },
   {
     "id": 10,
     "nombre": "Tablet 10 Pulgadas",
-    "descripcion": "Tablet con pantalla Full HD.",
+    "categoria": "Tecnología",
     "precio": 199.99,
+    "vendedor": "TechWorld",
     "imagen": "imagen10.jpg"
   }
 ]
