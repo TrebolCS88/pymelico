@@ -6,6 +6,7 @@
     "precio": 50,
     "vendedor": "TCS",
     "imagen": "imagen1.jpg"
+    "descripcion_detallada": "Refresco instantaneo, rinde 2 Lt."
   },
   {
     "id": 2,
