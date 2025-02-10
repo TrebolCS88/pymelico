@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       data.forEach(producto => {
         const productoHTML = `
           <div class="producto" data-id="${producto.id}">
-            <img src="imagenes/${producto.imagen}" alt="${producto.nombre}">
+            <img src="${producto.imagen}" alt="${producto.nombre}">
             <h2>${producto.nombre}</h2>
             <p><strong>Categoría:</strong> ${producto.categoria}</p>
             <p><strong>Precio:</strong> $${producto.precio.toFixed(2)}</p>
@@ -29,7 +29,7 @@ function mostrarPopup(id) {
     .then(data => {
       const producto = data.find(p => p.id === id);
       if (producto) {
-        document.getElementById('popup-imagen').src = `imagenes/${producto.imagen}`;
+        document.getElementById('popup-imagen').src = `${producto.imagen}`;
         document.getElementById('popup-nombre').textContent = producto.nombre;
         document.getElementById('popup-descripcion').textContent = producto.descripcion_detallada;
         document.getElementById('popup').style.display = 'flex';
