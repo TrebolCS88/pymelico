@@ -8,10 +8,11 @@ document.addEventListener("DOMContentLoaded", function () {
       data.forEach(producto => {
         const productoHTML = `
           <div class="producto" data-id="${producto.id}">
-            <img src="${producto.imagen}" alt="${producto.nombre}">
+            <img src="imagenes/${producto.imagen}" alt="${producto.nombre}">
             <h2>${producto.nombre}</h2>
-            <p>${producto.descripcion}</p>
+            <p><strong>Categoría:</strong> ${producto.categoria}</p>
             <p><strong>Precio:</strong> $${producto.precio.toFixed(2)}</p>
+            <p><strong>Vendedor:</strong> ${producto.vendedor}</p>
             <button onclick="seleccionarProducto(${producto.id})">Seleccionar</button>
           </div>
         `;
