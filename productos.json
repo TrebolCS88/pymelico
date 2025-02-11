@@ -1,38 +1,82 @@
 [
   {
     "id": 1,
-    "nombre": "Refresco cola",
-    "categoria": "Alimentos",
-    "precio": 50,
-    "vendedor": "TCS",
-    "imagen": "imagen1.jpg"
-    "descripcion_detallada": "Refresco instantaneo, rinde 2 Lt."
-  },
-  {
-    "id": 2,
     "nombre": "Zapatillas Deportivas",
     "categoria": "Calzado",
     "precio": 59.99,
     "vendedor": "Deportes S.A.",
-    "imagen": "imagen1.jpg",
-    "descripcion_detallada": "Zapatillas ideales para correr, con suela amortiguada y diseño ergonómico."
+    "imagen": "imagen1.jpg"
   },
   {
-    "id": 3,
+    "id": 2,
     "nombre": "Camiseta Básica",
     "categoria": "Ropa",
     "precio": 19.99,
     "vendedor": "Moda Express",
-    "imagen": "imagen2.jpg",
-    "descripcion_detallada": "Camiseta de algodón 100%, suave y transpirable, disponible en varios colores."
+    "imagen": "imagen2.jpg"
   },
   {
-    "id": 4,
+    "id": 3,
     "nombre": "Reloj Inteligente",
     "categoria": "Tecnología",
     "precio": 129.99,
     "vendedor": "TechWorld",
-    "imagen": "imagen3.jpg",
-    "descripcion_detallada": "Reloj inteligente con monitor de frecuencia cardíaca, GPS y notificaciones."
+    "imagen": "imagen3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Mochila Impermeable",
+    "categoria": "Accesorios",
+    "precio": 39.99,
+    "vendedor": "Outdoor Gear",
+    "imagen": "imagen4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Auriculares Inalámbricos",
+    "categoria": "Tecnología",
+    "precio": 89.99,
+    "vendedor": "SoundMaster",
+    "imagen": "imagen5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Gafas de Sol",
+    "categoria": "Accesorios",
+    "precio": 29.99,
+    "vendedor": "SunStyle",
+    "imagen": "imagen6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Portátil Ultraligero",
+    "categoria": "Tecnología",
+    "precio": 899.99,
+    "vendedor": "TechWorld",
+    "imagen": "imagen7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Cámara Reflex",
+    "categoria": "Fotografía",
+    "precio": 499.99,
+    "vendedor": "PhotoPro",
+    "imagen": "imagen8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Altavoz Bluetooth",
+    "categoria": "Tecnología",
+    "precio": 49.99,
+    "vendedor": "SoundMaster",
+    "imagen": "imagen9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Tablet 10 Pulgadas",
+    "categoria": "Tecnología",
+    "precio": 199.99,
+    "vendedor": "TechWorld",
+    "imagen": "imagen10.jpg"
   }
 ]
