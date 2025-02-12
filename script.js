@@ -33,3 +33,18 @@ function seleccionarProducto(id) {
     }
   });
 }
+
+// Función para mostrar el pop-up con la imagen del producto
+function mostrarPopup(imagen) {
+  const popup = document.getElementById('popup');
+  const popupImagen = document.getElementById('popup-imagen');
+  // Asignar la imagen al pop-up
+  popupImagen.src = `imagenes/${imagen}`;
+  // Mostrar el pop-up
+  popup.style.display = 'flex';
+}
+
+// Cerrar el pop-up
+document.getElementById('cerrar-popup').addEventListener('click', function () {
+  document.getElementById('popup').style.display = 'none';
+});
