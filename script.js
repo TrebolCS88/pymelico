@@ -39,7 +39,7 @@ function mostrarPopup(imagen) {
   const popup = document.getElementById('popup');
   const popupImagen = document.getElementById('popup-imagen');
   // Asignar la imagen al pop-up
-  popupImagen.src = `imagenes/${imagen}`;
+  popupImagen.src = `${imagen}`;
   // Mostrar el pop-up
   popup.style.display = 'flex';
 }
