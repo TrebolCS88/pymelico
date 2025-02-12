@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <p><strong>Categoría:</strong> ${producto.categoria}</p>
             <p><strong>Precio:</strong> $${producto.precio.toFixed(2)}</p>
             <p><strong>Vendedor:</strong> ${producto.vendedor}</p>
-            <button onclick="seleccionarProducto(${producto.id})">Detalles</button>
+            <button onclick="mostrarPopup(${producto.id})">Detalles</button>
           </div>
         `;
         productosContainer.innerHTML += productoHTML;
