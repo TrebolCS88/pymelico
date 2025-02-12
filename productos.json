@@ -33,10 +33,10 @@
   },
   {
     "id": 5,
-    "nombre": "Auriculares Inalámbricos",
-    "categoria": "Tecnología",
-    "precio": 89.99,
-    "vendedor": "SoundMaster",
+    "nombre": "Desodorante Miya",
+    "categoria": "Aseo",
+    "precio": 550,
+    "vendedor": "TCS",
     "imagen": "imagen5.jpg"
   },
   {
