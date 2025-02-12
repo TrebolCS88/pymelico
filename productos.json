@@ -9,26 +9,26 @@
   },
   {
     "id": 2,
-    "nombre": "Camiseta Básica",
-    "categoria": "Ropa",
-    "precio": 19.99,
-    "vendedor": "Moda Express",
+    "nombre": "Espaguetis 500g",
+    "categoria": "Alimentos",
+    "precio": 300,
+    "vendedor": "TCS",
     "imagen": "imagen2.jpg"
   },
   {
     "id": 3,
-    "nombre": "Reloj Inteligente",
-    "categoria": "Tecnología",
-    "precio": 129.99,
-    "vendedor": "TechWorld",
+    "nombre": "Sazón Goya",
+    "categoria": "Alimentos",
+    "precio": 60,
+    "vendedor": "TCS",
     "imagen": "imagen3.jpg"
   },
   {
     "id": 4,
-    "nombre": "Mochila Impermeable",
-    "categoria": "Accesorios",
-    "precio": 39.99,
-    "vendedor": "Outdoor Gear",
+    "nombre": "Sazón Iberia",
+    "categoria": "Alimentos",
+    "precio": 50,
+    "vendedor": "TCS",
     "imagen": "imagen4.jpg"
   },
   {
