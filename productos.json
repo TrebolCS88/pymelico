@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "nombre": "Refresco Instantaneo",
-    "categoria": "Alimentos",
+    "nombre": "Jabon Oxigenado",
+    "categoria": "Aseo",
     "precio": 50,
     "vendedor": "TCS",
     "imagen": "imagen1.jpg"
