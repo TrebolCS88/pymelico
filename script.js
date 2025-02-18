@@ -24,8 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Cerrar el pop-up con animación
 document.getElementById('cerrar-popup').addEventListener('click', function () {
   const popup = document.getElementById('popup');
-  popup.classList.remove('mostrar'); // Quitar clase para ocultar con animación
-  setTimeout(function() {
+   setTimeout(function() {
     popup.style.display = 'none';
   }, 500); // Asegúrate de que coincida con el tiempo de transición en CSS
 });
