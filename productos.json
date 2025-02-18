@@ -3,7 +3,7 @@
     "id": 1,
     "nombre": "Jabon Ozonizado",
     "categoria": "Aseo",
-    "precio": 50,
+    "precio": 40,
     "vendedor": "TCS",
     "imagen": "imagen1.jpg"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "nombre": "Espaguetis 500g",
     "categoria": "Alimentos",
-    "precio": 300,
+    "precio": 280,
     "vendedor": "TCS",
     "imagen": "imagen2.jpg"
   },
@@ -35,48 +35,9 @@
     "id": 5,
     "nombre": "Desodorante Miya",
     "categoria": "Aseo",
-    "precio": 550,
+    "precio": 500,
     "vendedor": "TCS",
     "imagen": "imagen5.jpg"
   },
-  {
-    "id": 6,
-    "nombre": "Gafas de Sol",
-    "categoria": "Accesorios",
-    "precio": 29.99,
-    "vendedor": "SunStyle",
-    "imagen": "imagen6.jpg"
-  },
-  {
-    "id": 7,
-    "nombre": "Portátil Ultraligero",
-    "categoria": "Tecnología",
-    "precio": 899.99,
-    "vendedor": "TechWorld",
-    "imagen": "imagen7.jpg"
-  },
-  {
-    "id": 8,
-    "nombre": "Cámara Reflex",
-    "categoria": "Fotografía",
-    "precio": 499.99,
-    "vendedor": "PhotoPro",
-    "imagen": "imagen8.jpg"
-  },
-  {
-    "id": 9,
-    "nombre": "Altavoz Bluetooth",
-    "categoria": "Tecnología",
-    "precio": 49.99,
-    "vendedor": "SoundMaster",
-    "imagen": "imagen9.jpg"
-  },
-  {
-    "id": 10,
-    "nombre": "Tablet 10 Pulgadas",
-    "categoria": "Tecnología",
-    "precio": 199.99,
-    "vendedor": "TechWorld",
-    "imagen": "imagen10.jpg"
-  }
+
 ]
