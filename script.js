@@ -21,10 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(error => console.error('Error al cargar los productos:', error));
 
-  // Cerrar el pop-up
-  document.getElementById('cerrar-popup').addEventListener('click', function () {
-    document.getElementById('popup').style.display = 'none';
-  });
+  // Cerrar el pop-up con animación
+document.getElementById('cerrar-popup').addEventListener('click', function () {
+  const popup = document.getElementById('popup');
+  popup.classList.remove('mostrar'); // Quitar clase para ocultar con animación
+  setTimeout(function() {
+    popup.style.display = 'none';
+  }, 500); // Asegúrate de que coincida con el tiempo de transición en CSS
+});
 });
 
 // Función para seleccionar un producto
@@ -55,7 +59,7 @@ function mostrarPopup(id) {
         popupImagen.src = producto.imagen;
         popupNombre.textContent = producto.nombre; // Mostrar el nombre del producto
         // Mostrar el pop-up
-        popup.style.display = 'flex';
+        popup.classList.add('mostrar'); // Agregar clase para mostrar con animación
       }
     })
     .catch(error => console.error('Error al cargar los productos:', error));
