@@ -35,13 +35,23 @@ function seleccionarProducto(id) {
 }
 
 // Función para mostrar el pop-up con la imagen del producto
-function mostrarPopup(imagen) {
+function mostrarPopup(id) {
   const popup = document.getElementById('popup');
   const popupImagen = document.getElementById('popup-imagen');
-  // Asignar la imagen al pop-up
-  popupImagen.src = `${imagen}`;
-  // Mostrar el pop-up
-  popup.style.display = 'flex';
+
+  // Buscar el producto en la lista de productos
+  fetch('productos.json')
+    .then(response => response.json())
+    .then(data => {
+      const producto = data.find(p => p.id === id);
+      if (producto) {
+        // Asignar la imagen al pop-up
+        popupImagen.src = producto.imagen;
+        // Mostrar el pop-up
+        popup.style.display = 'flex';
+      }
+    })
+    .catch(error => console.error('Error al cargar los productos:', error));
 }
 
 // Cerrar el pop-up
