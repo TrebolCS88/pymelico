@@ -34,10 +34,11 @@ function seleccionarProducto(id) {
   });
 }
 
-// Función para mostrar el pop-up con la imagen del producto
+// Función para mostrar el pop-up con la imagen y el nombre del producto
 function mostrarPopup(id) {
   const popup = document.getElementById('popup');
   const popupImagen = document.getElementById('popup-imagen');
+  const popupNombre = document.getElementById('popup-nombre'); // Nuevo elemento para el nombre
 
   // Buscar el producto en la lista de productos
   fetch('productos.json')
@@ -45,8 +46,9 @@ function mostrarPopup(id) {
     .then(data => {
       const producto = data.find(p => p.id === id);
       if (producto) {
-        // Asignar la imagen al pop-up
+        // Asignar la imagen y el nombre al pop-up
         popupImagen.src = producto.imagen;
+        popupNombre.textContent = producto.nombre; // Mostrar el nombre del producto
         // Mostrar el pop-up
         popup.style.display = 'flex';
       }
