@@ -39,4 +39,44 @@
     "vendedor": "TCS",
     "imagen": "imagen5.jpg"
   },
+  {
+    "id": 6,
+    "nombre": "Proximamente...",
+    "categoria": "Otros",
+    "precio": 9.99,
+    "vendedor": "TCS",
+    "imagen": "imagen6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Proximamente...",
+    "categoria": "Otros",
+    "precio": 9.99,
+    "vendedor": "TCS",
+    "imagen": "imagen7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Proximamente...",
+    "categoria": "Otros",
+    "precio": 9.99,
+    "vendedor": "TCS",
+    "imagen": "imagen8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Proximamente...",
+    "categoria": "Otros",
+    "precio": 9.99,
+    "vendedor": "TCS",
+    "imagen": "imagen9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Proximamente...",
+    "categoria": "Otros",
+    "precio": 9.99,
+    "vendedor": "TCS",
+    "imagen": "imagen10.jpg"
+  }
 ]
