@@ -10,6 +10,19 @@ h1 {
   color: #333;
 }
 
+.banner {
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden; /* Para asegurarte de que los bordes redondeados se aplican a la imagen */
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .productos-container {
   display: flex;
   flex-wrap: wrap;
