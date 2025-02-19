@@ -41,9 +41,9 @@
   },
   {
     "id": 6,
-    "nombre": "Proximamente...",
-    "categoria": "Otros",
-    "precio": 9.99,
+    "nombre": "Refresco Instantaneo",
+    "categoria": "Alimentos",
+    "precio": 40,
     "vendedor": "TCS",
     "imagen": "imagen6.jpg"
   },
