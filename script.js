@@ -20,6 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     })
     .catch(error => console.error('Error al cargar los productos:', error));
+
+  // Cerrar el pop-up
+  document.getElementById('cerrar-popup').addEventListener('click', function () {
+    document.getElementById('popup').style.display = 'none';
+  });
 });
 
 // Función para seleccionar un producto
@@ -55,8 +60,3 @@ function mostrarPopup(id) {
     })
     .catch(error => console.error('Error al cargar los productos:', error));
 }
-
-// Cerrar el pop-up
-document.getElementById('cerrar-popup').addEventListener('click', function () {
-  document.getElementById('popup').style.display = 'none';
-});
